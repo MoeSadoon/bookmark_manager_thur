@@ -8,10 +8,13 @@ gem 'shotgun'
 gem 'data_mapper'
 gem 'dm-postgres-adapter'
 gem 'bcrypt'
+gem 'dm-validations'
+
 
 group :test do
   gem 'rspec'
   gem 'rspec-sinatra'
   gem 'selenium-webdriver'
   gem 'database_cleaner'
+  gem 'byebug'
 end
