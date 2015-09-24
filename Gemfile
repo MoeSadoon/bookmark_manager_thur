@@ -10,6 +10,7 @@ gem 'dm-postgres-adapter'
 gem 'bcrypt'
 gem 'dm-validations'
 gem 'sinatra-flash'
+gem 'factory_girl'
 
 
 group :test do
