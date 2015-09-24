@@ -43,7 +43,7 @@ class Controller < Sinatra::Base
   end
 
   post '/users' do
-    User.create(email: params[:email],
+    user = User.create(email: params[:email],
                 password: params[:password])
     session[:user_id] = user.id
     redirect to('/links')
